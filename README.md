@@ -1,9 +1,12 @@
 # Fraud-Detection-Audit-Risk
 Fraud Detection on Audit Risk Dataset
 
+# Aim 
+Build a Classification model to predict `Risk` of a firm, given various Risk factors
+
 The dataset used is present in the repository. A small description of the features are provided in the screenshot capture.
 
-Steps performed : 
+# Steps performed 
 1. Import Packages
 2. Key Takeaways for Business
 3. Profiling report and Correlations
@@ -31,10 +34,7 @@ Steps performed :
     - Using SHAP values to explain the model
     
 
-Modelling Aim : 
-Build a Classification model to predict `Risk` of a firm, given various Risk factors
-
-Modelling Procedure : 
+# Modelling Procedure  
 Used PyCaret to perform Pre-processing pipeline and for building a Classification model to predict `Risk`. 
 Many models were implemented, tuned and 1 Champion model was selected.
 
